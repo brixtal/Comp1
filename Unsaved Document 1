@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+size_t fwrite(const void *prt, size_t size, size_t count, FILE *stream);
+
+int main (void)
+{
+	FILE *pfile;
+	char buffer [ ] = {'x', 'y', 'z'};
+	fwrite(buffer, sizeof(buffer), 1, pFile);
+	fclose (pfile);
+	return 0;
+}

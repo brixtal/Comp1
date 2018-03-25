@@ -1,0 +1,26 @@
+/* 	Programa:	pares.c
+   	Autor:		André Brito
+	Data:		07/05/2010
+	Descroção:	Este número recebe 10 números quaisquer e diz quanto são pares. Este programa não usa if.
+*/
+
+#include<stdio.h>
+#include<math.h>
+int main ( void )
+{
+	double numero, i, aux, resultado;
+	i = 0;
+	resultado = 10;
+	aux = 1;
+	while (i<100)
+	{
+		printf("pi/4 e igual a:\n");
+		valor = (aux +2) * (-1);
+		soma += (valor * exp(10,-1);
+		i++;
+	}
+	resultado = 1 - soma
+
+	printf("pi/4 e igua a: %f \n", resultado); 
+	return 0;
+}
